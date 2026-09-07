@@ -21,3 +21,4 @@ def load_opinions():
             db.session.add(opinion)
         db.session.commit()
     click.echo('Загрузка данных завершена!')
+    
